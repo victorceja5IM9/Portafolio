@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+}
+
+section{
+    display: block;
+}
+.personal{
+    height: 75px;
+    width: 75px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar{
+    padding: 0px;
+    --bs-navbar-disabled-color: #CBE4DE;
+    --bs-navbar-active-color: #CBE4DE;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5em;
+}
+
+.navbar-nav{
+    --bs-nav-link-hover-color: white;
+}
+.container-fluid{
+    background-color: #2C3333;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.active{
+    
+    font-weight: bolder;
+}
+.nav-link{
+    color: #CBE4DE;
+}
+.fondo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #2E4F4F;*/
+    background-image: url("./pxfuel.jpg");
+    height: 80vh;
+}
+
+.fcolor{
+    background-color: #2E4F4F;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: bolder;
+}
+.container1{
+    width: 50%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 > h2{
+    color: #0E8388;
+    margin-top:150px;
+    margin-bottom:100px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: 300px 50px 300px;
+    grid-gap: 15px;
+    grid-template-rows: 75px 150px 75px 150px;
+}
+
+.uno{
+    grid-column: span 2;
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thick double #83072D;
+}
+
+.dos{
+    grid-row: 1 / 3 ;
+}
+
+.cecyt9{
+    height: 70%;
+    object-fit: fill;
+}
+
+.tres{
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thick double #83072D;
+}
+
+.escom{
+    height: 70%;
+    object-fit: fill;
+}
+
+.cuatro{
+    grid-row: 3 / 5;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
